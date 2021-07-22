@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Coca-cola, Coca, Cola, Clone, Company, Fanta, Sprite, Schweppes, Fuze Tea">
+    <meta name="description" content="Coca-Cola Company Clone">
+    <meta name="author" content="Milos Dronjak">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3eca56b0dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/aboutUs.css">
+    <title>Coca Cola Clone</title>
+    <style>
+        #loader
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            opacity: 1;
+            transition: opacity 0.3s linear;
+        }
+        #loader img{
+            width: auto;
+            height: 30vh;
+            -webkit-animation: spinner 1s linear infinite;
+                    animation: spinner 1s linear infinite;
+        }
+        @-webkit-keyframes spinner {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+        @keyframes spinner {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div id="loader">
+        <img src="../images/coca-cola-logo.png" alt="Logo">
+    </div>
+    <header>
+        <div class="logo">
+            <a href="https://www.coca-colacompany.com/" data-tooltip="Official Coca-Cola Company website" target="_blank">
+                <img src="../images/coca-cola-logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="navbar">
+            <a href="../index.html">home</a>
+            <a href="./products.html">products</a>
+            <a href="./gifts.html">gifts</a>
+            <a href="#" class="active">about us</a>
+        </div>
+        <div class="side">
+            <a href="../index.html">home</a>
+            <a href="./products.html">products</a>
+            <a href="./gifts.html">gifts</a>
+            <a href="#" class="active">about us</a>
+        </div>
+        <span class="fas fa-bars"></span>
+    </header>
+    <main>
+        <div class="con-for-image">
+            <div class="wrapper">
+                <img src="../images/building_of_CCCompany_Atlanta.png" alt="The Coca-Cola Company's headquarters in Atlanta">
+                <h3></h3>
+            </div>
+        </div>
+        <div class="con-for-text">
+            <article>
+                <ul>
+                    <li>The Coca-Cola Company, American corporation founded in 1892 and today engaged
+                        primarily in the manufacture and sale of syrup and concentrate for Coca-Cola, 
+                        a sweetened carbonated beverage that is a cultural institution in the United 
+                        States and a global symbol of American tastes. </li>
+                    <li>The company also produces and sells other soft drinks and citrus beverages. 
+                        With more than 2,800 products available in more than 200 countries, Coca-Cola
+                        is the largest beverage manufacturer and distributor in the world and one 
+                        of the largest corporations in the United States. </li>
+                    <li>The Coca-Cola Company's headquarters are located in Atlanta, Georgia.</li>
+                </ul>
+                <div class="link">
+                    <a href="https://www.britannica.com/topic/The-Coca-Cola-Company" target="_blank">
+                        See more <i class="fas fa-angle-double-right"></i>
+                        <div class="top"></div>
+                        <div class="right"></div>
+                        <div class="bottom"></div>
+                        <div class="left"></div>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="../script/aboutUs.js"></script>
+</html>
