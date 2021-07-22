@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Coca-cola, Coca, Cola, Clone, Company, Fanta, Sprite, Schweppes, Fuze Tea">
+    <meta name="description" content="Coca-Cola Company Clone">
+    <meta name="author" content="Milos Dronjak">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3eca56b0dd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/layout.css">
+    <style>
+        #loader
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            opacity: 1;
+            transition: opacity 0.3s linear;
+        }
+        #loader img{
+            width: auto;
+            height: 30vh;
+            -webkit-animation: spinner 1s linear infinite;
+                    animation: spinner 1s linear infinite;
+        }
+        @-webkit-keyframes spinner {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+        @keyframes spinner {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+    </style>
+    <title>Coca Cola Clone</title>
+</head>
+<body>
+    <div id="loader">
+        <img src="./images/coca-cola-logo.png" alt="Logo">
+    </div>
+    <div class="info">
+        <div class="messageBox">
+            This site is made only for showing my web-dev skills and does not 
+            pose a threat to the real Coca-Cola website. <br>
+            Click Ok to view the full site, or Cancel to leave this page.
+            <div class="btns">
+                <button class="ok">Ok</button>
+                <button class="cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div class="infoImages">
+        <div class="messageBox">
+            On this website, I used a lot of images. Maybe some of them are copyrighted.
+            It was not my intention to make money from infringing content. 
+            The only purpose of this website is to show my web-dev skills. <br>
+            Some websites which I downloaded images from: <br>
+            <a href="https://www.amazon.com/" target="_blank">Amazon Official Website</a>, <br>
+            <a href="https://www.pinterest.com/" target="_blank">Pinterest Official Website</a>, <br>
+            <a href="https://www.google.com/" target="_blank">Google Official Website</a>... <br>
+            Click Ok to view the full site, or Cancel to leave this page. 
+            <div class="btns">
+                <button class="ok">Ok</button>
+                <button class="cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="logo">
+            <a href="https://www.coca-colacompany.com/" data-tooltip="Official Coca-Cola Company website" target="_blank">
+                <img src="./images/coca-cola-logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="navbar">
+            <a href="#" class="active">home</a>
+            <a href="./pages/products.html">products</a>
+            <a href="./pages/gifts.html">gifts</a>
+            <a href="./pages/aboutUs.html">about us</a>
+        </div>
+        <div class="side">
+            <a href="#" class="active">home</a>
+            <a href="./pages/products.html">products</a>
+            <a href="./pages/gifts.html">gifts</a>
+            <a href="./pages/aboutUs.html">about us</a>
+        </div>
+        <span class="fas fa-bars"></span>
+    </header>
+    <div class="startsection" id="main">
+        <h1>
+            This is a <span>fake</span> Coca Cola website.
+        </h1>
+        <a href="./pages/products.html" class="center-button">See Coca Cola Company products</a>
+    </div>
+</body>
+<script src="./script/layout.js"></script>
+</html>
