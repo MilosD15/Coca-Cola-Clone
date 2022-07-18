@@ -5,7 +5,7 @@ This is one of my first websites and presents my
 version of Coca Cola Company website. 😁
 ## See live website 🌍
 
-Play the game now! -> [coca-colacompanyclone.netlify.app](https://coca-colacompanyclone.netlify.app/)
+Click here! -> [coca-colacompanyclone.netlify.app](https://coca-colacompanyclone.netlify.app/)
 
 
 ## About 🚀
