@@ -36,4 +36,5 @@ bit with SEO optimization. 🤗
 - HTML
 - Google Fonts API
 - SMTP JavaScript Library
+- Netlify
 
