@@ -146,7 +146,7 @@ function Copyright() {
     div.innerHTML = "&#169; Copyright 2021 | Web Development and Design by ";
     var a = document.createElement("a");
     a.target = "_blank";
-    a.href = "https://www.fiverr.com/milosd15?up_rollout=true";
+    a.href = "https://www.linkedin.com/in/mdwebdev/";
     a.innerText = "Miško";
     div.appendChild(a);
     document.body.appendChild(div);
